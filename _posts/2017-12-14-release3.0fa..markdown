@@ -6,8 +6,8 @@ tags:
   - fa
 modal-id: 1
 date: 2017-12-14
-img: persepolis3.png
-thumbnail: persepolis3.png
+img: http://amirsamimi.ir/wp-content/uploads/2017/12/persepolis.png
+thumbnail: http://amirsamimi.ir/wp-content/uploads/2017/12/persepolis.png
 alt: Persepolis 3!
 project-date: آذز ۹۶
 category: انتشار
