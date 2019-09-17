@@ -20,7 +20,7 @@ In this Version we have some good new features :)
 
     2- You can select audio and video format or audio and video quality separately. Persepolis will download selected video and audio separately and mix it for you :). Please check out [Persepolis wiki](https://github.com/persepolisdm/persepolis/wiki/How-can-I-download-videos-from-youtube) for more information.
 
-    ![You Can Select Audio And Video Format](https://camo.githubusercontent.com/6ba24f4c2ed8be24d5a49ada6b8799a980633ff9/68747470733a2f2f7065727365706f6c6973646d2e6769746875622e696f2f696d672f73637265656e2f796f75747562652e676966)
+  ![You Can Select Audio And Video Format](https://camo.githubusercontent.com/6ba24f4c2ed8be24d5a49ada6b8799a980633ff9/68747470733a2f2f7065727365706f6c6973646d2e6769746875622e696f2f696d672f73637265656e2f796f75747562652e676966)
 
     3- We add Arabic, Dutch (Netherlands), Hungarian, Polish (Poland), Portuguese (Brazil) and Spanish (Spain) (es_ES) language support. Special thanks to our translators :)
 
@@ -28,19 +28,19 @@ In this Version we have some good new features :)
 
     5- You can minimize Persepolis to system tray with closing main window. [check out this issue for more information.](https://github.com/persepolisdm/persepolis/issues/530) You can disable this feature from preferences window.
 
-    ![You Can Minimize The Main Window Using Header Buttons.](https://camo.githubusercontent.com/97be954c9a07c0c06abd942268e924c078488f97/68747470733a2f2f7065727365706f6c6973646d2e6769746875622e696f2f696d672f73637265656e2f747261792e676966)
+  ![You Can Minimize The Main Window Using Header Buttons.](https://camo.githubusercontent.com/97be954c9a07c0c06abd942268e924c078488f97/68747470733a2f2f7065727365706f6c6973646d2e6769746875622e696f2f696d672f73637265656e2f747261792e676966)
 
     6- Persepolis will be opened automatically when you open browser. It's help to add your download faster. You can disable this feature from preferences window.
 
     7- New themes are added. You can select "Dark Fusion" and "Light Fusion". [check out Persepolis wiki for more information.](https://github.com/persepolisdm/persepolis/wiki/How-to-change-Persepolis-theme)
 
-    ![New Themes Added](https://camo.githubusercontent.com/daf1763ed42ca20361ef14176c6b1fc87e5fb7f6/68747470733a2f2f7065727365706f6c6973646d2e6769746875622e696f2f696d672f73637265656e2f77696e646f77732e706e67)
+  ![New Themes Added](https://camo.githubusercontent.com/daf1763ed42ca20361ef14176c6b1fc87e5fb7f6/68747470733a2f2f7065727365706f6c6973646d2e6769746875622e696f2f696d672f73637265656e2f77696e646f77732e706e67)
 
     8- Your downloaded file will shown highlighted in your file manager. This feature works in MS Windows and Mac and Some modern look DE(KDE Plasma, Gnome, ...) in Linux and BSD.
 
     9- You can transfer downloaded files after downloading to another destination folder. Just select your download items and right click on them and select "Move selected download file to another folder" from menu. [check out this issue for more information.](https://github.com/persepolisdm/persepolis/issues/597)
 
-    ![You can transfer downloaded files after downloading to another destination folder](https://camo.githubusercontent.com/e734e64a0adebebd3fd79ecfaaf61911156c65e1/68747470733a2f2f7065727365706f6c6973646d2e6769746875622e696f2f696d672f73637265656e2f6d6f76655f746f5f616e6f746865725f666f6c6465722e6a7067)
+  ![You can transfer downloaded files after downloading to another destination folder](https://camo.githubusercontent.com/e734e64a0adebebd3fd79ecfaaf61911156c65e1/68747470733a2f2f7065727365706f6c6973646d2e6769746875622e696f2f696d672f73637265656e2f6d6f76655f746f5f616e6f746865725f666f6c6465722e6a7067)
 
     10- We fix some of reported bugs. [check out reported bugs](https://github.com/persepolisdm/persepolis/issues?q=is%3Aissue+label%3Afixed+is%3Aclosed)
 
