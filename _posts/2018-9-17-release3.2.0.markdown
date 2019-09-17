@@ -52,9 +52,9 @@ Special thanks to contributors for pull requests and bug reports!
 
 Windows and Mac and Debian packages will be uploaded soon and repositories will be updated soon.
 
-###ffmpeg is added to the dependencies for Linux and BSD.
+### ffmpeg is added to the dependencies for Linux and BSD.
 
-##Known bugs:
+## Known bugs:
     
     1- Firefox in MS Windows can't open Persepolis. Persepolis must be executed manually by user.
     2- Refreshing GUI in mac has some problems.
