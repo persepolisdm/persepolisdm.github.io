@@ -6,7 +6,7 @@ tags:
   - en
 modal-id: 1
 date: 2018-09-17
-img: persepolis3.png
+img: persepolis320.png
 thumbnail: persepolis3.png
 project-date: September 2018
 category: Releases
