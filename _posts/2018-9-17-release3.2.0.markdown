@@ -7,7 +7,7 @@ tags:
 modal-id: 1
 date: 2018-09-17
 img: persepolis320.png
-thumbnail: persepolis3.png
+thumbnail: persepolis320.png
 project-date: September 2018
 category: Releases
 ---
@@ -42,11 +42,11 @@ In this Version we have some good new features :)
 
   ![You can transfer downloaded files after downloading to another destination folder](https://camo.githubusercontent.com/e734e64a0adebebd3fd79ecfaaf61911156c65e1/68747470733a2f2f7065727365706f6c6973646d2e6769746875622e696f2f696d672f73637265656e2f6d6f76655f746f5f616e6f746865725f666f6c6465722e6a7067)
 
-    10- We fix some of reported bugs. [check out reported bugs](https://github.com/persepolisdm/persepolis/issues?q=is%3Aissue+label%3Afixed+is%3Aclosed)
+    10- We fix some of reported bugs.
 
-    11- Make sure that you installed [Persepolis web extension](https://github.com/persepolisdm/persepolis/wiki/Home-en#extensions) on your browser. It's updated and many nice features are added to it by [Jafar AkhondAli](https://github.com/JafarAkhondali). With the new version of Persepolis web-extension, it is now possible to filter links based on name, and file extension. For example you can download a series based on their video quality and file extension with couple of clicks and ignoring irrelevant urls.
+    11- Make sure that you installed Perspolis Web Extension on your browser. It's updated and many nice features are added to it by. With the new version of Persepolis web-extension, it is now possible to filter links based on name, and file extension. For example you can download a series based on their video quality and file extension with couple of clicks and ignoring irrelevant urls.
 
-    12- Mac users can install Persepolis from brew. [check out Persepolis wiki for more information](check out Persepolis wiki for more information). Special thanks to Ehsan Titish.
+    12- Mac users can install Persepolis from brew. (check out Persepolis wiki for more information). Special thanks to Ehsan Titish.
 
 Special thanks to contributors for pull requests and bug reports!
 
