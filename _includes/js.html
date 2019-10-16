@@ -20,7 +20,8 @@
 
 
  <script>
-     $(document).ready(function () {
-         $(".loading").fadeOut(300);
-     });
+   $(window).on("load", function() {
+      $("body").css('overflow','auto');
+      $(".loading").fadeOut(200);
+   });
  </script>
