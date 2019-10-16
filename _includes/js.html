@@ -20,8 +20,9 @@
 
 
  <script>
-   $(window).on("load", function() {
-      $("body").css('overflow','auto');
+   // $(window).on("load", function() {
+   $(document).ready(function() {
+      $("body").removeClass('preloading');
       $(".loading").fadeOut(200);
    });
  </script>
