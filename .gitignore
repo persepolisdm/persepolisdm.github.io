@@ -38,3 +38,5 @@ Icon
 
 _config.yml
 *.yml
+
+.jekyll-cache
