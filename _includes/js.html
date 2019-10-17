@@ -15,12 +15,15 @@
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/fullWidth.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/relax.min.js" | prepend: site.baseurl }}"></script>
 
     <script src="../js/ideal-image-slider.js"></script>
 
 
  <script>
-     $(document).ready(function () {
-         $(".loading").fadeOut(300);
-     });
+   $(document).ready(function() {
+     var rellax = new Rellax('.rellax');
+     $("body").removeClass('preloading');
+      $(".loading").fadeOut(200);
+   });
  </script>
