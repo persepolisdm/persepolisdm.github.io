@@ -64,6 +64,15 @@ people:
   social:
     - title: github
       url: http://github.com/JafarAkhondali
+
+- name-fa: احسان تی تیش
+  name: Ehsan Titish
+  pic: https://avatars3.githubusercontent.com/u/9904514
+  position: MacOs Support
+  position-fa: پشتیبانی مک
+  social:
+    - title: github
+      url: https://github.com/Maders
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
