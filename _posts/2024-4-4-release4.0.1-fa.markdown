@@ -1,0 +1,34 @@
+---
+title:  Persepolis 4.0.1
+subtitle: New Release!
+layout: default
+tags:
+  - fa
+modal-id: 1
+date: 2024-4-4
+img: persepolisdm401.png
+thumbnail: persepolisdm401.png
+project-date: March 2024
+category: Releases
+---
+
+پرسپولیس نسخه ۴.۰.۱ منتشر شد.
+
+در نسخه جدید:
+
+
+  ۱- python setuptools با meson جایگزین شده. بنابراین دستورات نصب نیز تغییر کرده است. برای اطلاعات بیشتر این راهنما را مطالعه کنید. از آنجایی که بسته pyside6 در مخازن توزیع‌های آرچ‌لینوکس و فدورا موجود است، کابران این توزیع‌ها می‌توانند پرسپولیس  را به عنوان یک اپلیکیشن  pyside6 اجرا کنند. ولی توزیع‌هایی که بسته‌های قدیمی‌تری دارند می‌توانند همچنان پرسپولیس را به عنوان یک اپلیکیشن pyqt5 اجرا کنند.
+
+  ۲- تعدادی از باگ‌های مهم را حل کردیم. در اینجا کامیت‌های مربوط را ببینید.
+
+  ۳- ترجمه‌ها به روز شده‌اند و پرسپولیس با زبان‌های بیشتری در دسترس است. اگر تمایل دارید در ترجمه پرسپولیس ما را یاری کنید، لطفا این [راهنما](https://github.com/persepolisdm/persepolis/wiki/translators-guide) را مطالعه فرمایید.
+
+  ۴- پرسپولیس دیگر نسخه ۳۲ بیتی برای ویندوز نخواهد داشت ولی نسخه ۶۴ بیتی موجود است. برای اطلاع از شیوه نصب پرسپولیس روی ویندوز این [راهنما](https://github.com/persepolisdm/persepolis/wiki/Microsoft-Windows-fa) را مطالعه فرمایید.
+
+  ۵- اگر میخواهید پرسپولیس را روی MacOSX نصب نمایید، لطفا این [راهنما](https://github.com/persepolisdm/persepolis/wiki/MacOS-Installer-fa) را مطالعه فرمایید.
+
+
+Reagrds
+AliReza AmirSamimi
+
+

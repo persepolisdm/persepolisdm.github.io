@@ -1,0 +1,33 @@
+---
+title:  Persepolis 4.0.1
+subtitle: New Release!
+layout: default
+tags:
+  - en
+modal-id: 1
+date: 2024-4-4
+img: persepolisdm401.png
+thumbnail: persepolisdm401.png
+project-date: March 2024
+category: Releases
+---
+
+We are happy to announce the release of Persepolis Download Manager 4.0.1.
+
+In this Version we have some good new features :)
+
+1- Python setuptools is replaced by meson. so installation instructions are changed. please checkout this [link](https://github.com/persepolisdm/persepolis/wiki/git-installation-instruction) for more information. psyide6 is now available in ArchLinux and Fedora repositories. If pyside6 is not available in your distribution, you can install pyqt5.
+
+2- Some bugs are fixed. Please checkout this [link](https://github.com/persepolisdm/persepolis/compare/4.0.0...4.0.1) for more information.
+
+3- New translations are added. If you are interested to translate Persepolis Download Manager to your language, Please checkout this [link](https://github.com/persepolisdm/persepolis/wiki/translators-guide)
+
+4- We dropped 32 bit support for Microsoft windows. Please checkout this [link](https://github.com/persepolisdm/persepolis/wiki/Microsoft-Windows) for installation instructions.
+
+5- If you want to install persepolis on Mac OSX, please checkout this [link]https://github.com/persepolisdm/persepolis/wiki/MacOS-Installer for installation instructions.
+
+
+Reagrds
+AliReza AmirSamimi
+
+
