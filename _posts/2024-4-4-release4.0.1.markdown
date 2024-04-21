@@ -1,32 +1,31 @@
 ---
-title:  Persepolis 4.0.0
+title:  Persepolis 4.0.1
 subtitle: New Release!
 layout: default
 tags:
   - en
 modal-id: 1
-date: 2024-02-10
-img: persepolisdmV4.png
-thumbnail: persepolisdmV4.png
-project-date: February 2024
+date: 2024-4-4
+img: persepolisdm401.png
+thumbnail: persepolisdm401.png
+project-date: March 2024
 category: Releases
 ---
 
-We are happy to announce the release of Persepolis Download Manager 4.0.0 .
+We are happy to announce the release of Persepolis Download Manager 4.0.1.
 
 In this Version we have some good new features :)
 
-1- Persepolis is rewritten in PySide6 but It's still working with PyQt5. So don't worry if PySide6 is not available for your operating system:)
+1- Python setuptools is replaced by meson. so installation instructions are changed. please checkout this [link](https://github.com/persepolisdm/persepolis/wiki/git-installation-instruction) for more information. psyide6 is now available in ArchLinux and Fedora repositories. If pyside6 is not available in your distribution, you can install pyqt5.
 
-2-Dependencies have changed. Please check this [link](https://github.com/persepolisdm/persepolis/wiki/git-installation-instruction)
+2- Some bugs are fixed. Please checkout this [link](https://github.com/persepolisdm/persepolis/compare/4.0.0...4.0.1) for more information.
 
-3- [youtube-dl](https://github.com/rg3/youtube-dl) is replaced by [yt-dlp](https://github.com/yt-dlp/yt-dlp). So you can still download videos from YouTube and ... with high quality. [Check out Persepolis wiki for more information.](https://github.com/persepolisdm/persepolis/wiki/How-can-I-download-videos-from-youtube), special thanks to [@jvdi](https://github.com/jvdi)
+3- New translations are added. If you are interested to translate Persepolis Download Manager to your language, Please checkout this [link](https://github.com/persepolisdm/persepolis/wiki/translators-guide)
 
-4- New themes are added. Fusion dark is default theme but you can change it. [Check out Persepolis wiki for more information.](https://github.com/persepolisdm/persepolis/wiki/How-to-change-Persepolis-theme)
+4- We dropped 32 bit support for Microsoft windows. Please checkout this [link](https://github.com/persepolisdm/persepolis/wiki/Microsoft-Windows) for installation instructions.
 
-5- We fix some of reported bugs. [check out reported bugs.](https://github.com/persepolisdm/persepolis/issues?q=is%3Aissue+label%3Afixed+is%3Aclosed)
+5- If you want to install persepolis on Mac OSX, please checkout this [link]https://github.com/persepolisdm/persepolis/wiki/MacOS-Installer for installation instructions.
 
-### Windows and Mac and Debian packages will be uploaded soon and repositories will be updated soon.
 
 Reagrds
 AliReza AmirSamimi
