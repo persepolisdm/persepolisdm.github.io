@@ -1,15 +1,15 @@
 ---
-title:  Persepolis 4.0.1
-subtitle: New Release!
+title:  پرسپولیس ۴.۰.۱
+subtitle: انتشار نسخه جدید
 layout: default
 tags:
   - fa
 modal-id: 1
-date: 2024-4-4
+date: 2024-4-18
 img: persepolisdm401.png
 thumbnail: persepolisdm401.png
-project-date: March 2024
-category: Releases
+project-date: اسفند ۱۴۰۲
+category: انتشار
 ---
 
 پرسپولیس نسخه ۴.۰.۱ منتشر شد.
