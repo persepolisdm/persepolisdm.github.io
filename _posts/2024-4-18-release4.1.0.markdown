@@ -1,0 +1,36 @@
+---
+title:  Persepolis 4.1.0
+subtitle: New Release!
+layout: default
+tags:
+  - en
+modal-id: 1
+date: 2024-4-18
+img: persepolisdm401.png
+thumbnail: persepolisdm401.png
+project-date: April 2024
+category: Releases
+---
+
+We are happy to announce the release of Persepolis Download Manager 4.1.0.
+
+In this version:
+
+1- Socks5 support is added. In order to enable this feature in GNU/Linux or BSD, you must install [gost](https://github.com/ginuerzh/gost/tree/master) or [sthp](https://github.com/KaranGauswami/socks-to-http-proxy). Please checkout this [link](https://github.com/persepolisdm/persepolis/wiki/git-installation-instruction#installing-sthp-or-gost-for-socks5-support) for more information.
+
+2- The new version of Persepolis browser extension has been released. To learn how to install, please checkout this [link](https://github.com/persepolisdm/persepolis/wiki/Home-en#extensions).
+
+3- The browser extension could not open Persepolis in M.S.Windows. This bug is fixed.
+
+4- Video finder's [bugs](https://github.com/persepolisdm/persepolis/issues/837) is fixed. You can download videos from YouTube, ... with the highest quality by Persepolis. Please checkout this [link](https://github.com/persepolisdm/persepolis/wiki/How-can-I-download-videos-from-youtube) for more information.
+
+5- The bug of not adding batch download with the browser extension is fixed.
+
+6- The bug of not adding a batch download with text file is fixed.
+and ...
+
+
+Thanks to contributors for pull requests and bug reports!
+
+Regards
+AliReza AmirSamimi
