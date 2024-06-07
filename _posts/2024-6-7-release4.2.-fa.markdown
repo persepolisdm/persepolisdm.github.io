@@ -1,0 +1,42 @@
+---
+title:  پرسپولیس ۴.۲.۰
+subtitle: انتشار نسخه جدید
+layout: default
+tags:
+  - fa
+modal-id: 1
+date: 2024-6-7
+img: persepolisdm401.png
+thumbnail: persepolisdm401.png
+project-date: اسفند ۱۴۰۲
+category: انتشار
+---
+
+بسیار خرسندیم که انتشار نسخه ۴.۲.۰ دانلود منجر پرسپولیس را به اطلاع شما برسانیم.
+
+در نسخه جدید:
+
+
+۱- ۱. شما می‌توانید از کلیپ‌بورد سیستم لینک‌های خود را به پرسپولیس بدهید. برای این کار لینک یا لینک‌های خود را کپی کنید، بعد از منوی پرونده گزینه «افزودن پیوندها از کلیپ‌بورد» را انتخاب کنید. شما همچنین می‌توانید از منوی سینی نمایه هم برای این هدف استفاده کنید.
+
+![image](https://private-user-images.githubusercontent.com/7452500/336321333-02a7c4dc-9e9e-4fa2-8e32-18588b65a841.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc3ODU1NTYsIm5iZiI6MTcxNzc4NTI1NiwicGF0aCI6Ii83NDUyNTAwLzMzNjMyMTMzMy0wMmE3YzRkYy05ZTllLTRmYTItOGUzMi0xODU4OGI2NWE4NDEuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA2MDdUMTgzNDE2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NTNmMTlkMWViZDFmNzUwNmU5OTdlMjgwN2M4MDJhODM5MjJiZjk3OWU1MTJiOTIzYmRjMmRjZmM3ZGMwNTljYSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.Az0k5f3gcKcat-UeTsabL5_lLzjdf-KZEWPgb2fIG8c)
+
+۲- ۲. پرسپولیس می‌تواند کلیپ‌بورد سیستم را به شکل خودکار برای لینک‌های کپی شده چک کند. این قابلیت به شکل پیش‌فرض غیرفعال است. شما می‌توانید آن را از پنجره شخصی‌سازی(Preferences) فعال کنید(ویرایش > شخصی‌سازی > زبانه شخصی سازی > بررسی کلیپ‌بورد برای پیونده‌های کپی شده ). دقت کنید که پرسپولیس وقتی می‌تواند به شکل خودکار کلیپ‌بورد را چک کند که پنجره اصلی برنامه در حال نمایش باشد.
+
+![image](https://private-user-images.githubusercontent.com/7452500/336322517-73294ef8-cce0-429e-9a1c-8646bf2e65aa.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc3ODU1NTYsIm5iZiI6MTcxNzc4NTI1NiwicGF0aCI6Ii83NDUyNTAwLzMzNjMyMjUxNy03MzI5NGVmOC1jY2UwLTQyOWUtOWExYy04NjQ2YmYyZTY1YWEuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA2MDdUMTgzNDE2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OGNiYjEzOTNiMjhhZjg4MmU5NjBkNjdkMDM3YTVkNWVjNTFjZmJmOGQxYzU0ZGU2MjkyMjhmNjU0MTVlMDNjNCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.p1rPsQtqc6F6wyk098tAPq0lV8Ofhp5Tz33txO2xosk)
+
+البته توصیه ما این است که به جای کپی کردن لینک‌ها از مرورگر از افزونه مرورگر پرسپولیس استفاده کنید. برای اطلاعات بیشتر [این لینک](https://github.com/persepolisdm/persepolis/wiki/How-to-use-persepolis-browser-extension-fa) را بخوانید.
+
+
+
+![image](https://private-user-images.githubusercontent.com/7452500/336147585-8c75fa8c-fba2-4bcb-afd9-931e07e7c1f6.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc3ODU1NTYsIm5iZiI6MTcxNzc4NTI1NiwicGF0aCI6Ii83NDUyNTAwLzMzNjE0NzU4NS04Yzc1ZmE4Yy1mYmEyLTRiY2ItYWZkOS05MzFlMDdlN2MxZjYuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA2MDdUMTgzNDE2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NGYyMGI5ODUzYjI5ZjIxMDAzMTIxOGM2OGJjYTkwNzI1MmQ0MjBmNzNmNTAxYWQ4ODlkNDAwNDhhN2IzYTM4YSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.Cj_0-bVNmkGm7NkxS6VCFXb3JeMBwrsZb2nDp6Hnb9c)
+
+۳- مشکل پیدا کردن نام فایل‌ها بعد از اضافه شده لینک بهبود پیدا کرده است.
+
+
+۴- ترجمه‌ها به روز شده‌اند
+
+همکاری مشارکت‌کنندگان محترم را ارج می‌نهیم. از شما سپاس‌گزاریم که با پول ریکوئست‌ها و اطلاع دادن باگ‌ها ما را در توسعه برنامه یاری کردید. از [@amiraslanaslani](https://github.com/amiraslanaslani) و [@alireza-delavari](https://github.com/alireza-delavari) به خاطر پول ریکوئست‌های ارزشمندشان متشکریم.
+
+با احترام
+علیرضا امیرصمیمی
