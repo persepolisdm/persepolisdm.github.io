@@ -1,0 +1,40 @@
+---
+title:  Persepolis 4.2.0
+subtitle: New Release!
+layout: default
+tags:
+  - en
+modal-id: 1
+date: 2024-6-7
+img: persepolisdm401.png
+thumbnail: persepolisdm401.png
+project-date: April 2024
+category: Releases
+---
+
+We are happy to announce the release of Persepolis Download Manager 4.2.0.
+
+In this version:
+
+1- You can import link(s) from clipboard. Copy your link(s) and select "import links from clipboard" from file menu. You can also use the system tray icon context menu as well.
+
+![image](https://private-user-images.githubusercontent.com/7452500/336321333-02a7c4dc-9e9e-4fa2-8e32-18588b65a841.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc3ODU1NTYsIm5iZiI6MTcxNzc4NTI1NiwicGF0aCI6Ii83NDUyNTAwLzMzNjMyMTMzMy0wMmE3YzRkYy05ZTllLTRmYTItOGUzMi0xODU4OGI2NWE4NDEuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA2MDdUMTgzNDE2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NTNmMTlkMWViZDFmNzUwNmU5OTdlMjgwN2M4MDJhODM5MjJiZjk3OWU1MTJiOTIzYmRjMmRjZmM3ZGMwNTljYSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.Az0k5f3gcKcat-UeTsabL5_lLzjdf-KZEWPgb2fIG8c)
+
+2- Also, Persepolis can automatically detect links in the clipboard. This feature is not active by default. You can enable this feature from the preferences window(Edit > Preferences > Preferences tab > check system clipboard for copied links). Persepolis can check the clipboard only when the main window is displayed.
+
+![image](https://private-user-images.githubusercontent.com/7452500/336322517-73294ef8-cce0-429e-9a1c-8646bf2e65aa.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc3ODU1NTYsIm5iZiI6MTcxNzc4NTI1NiwicGF0aCI6Ii83NDUyNTAwLzMzNjMyMjUxNy03MzI5NGVmOC1jY2UwLTQyOWUtOWExYy04NjQ2YmYyZTY1YWEuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA2MDdUMTgzNDE2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OGNiYjEzOTNiMjhhZjg4MmU5NjBkNjdkMDM3YTVkNWVjNTFjZmJmOGQxYzU0ZGU2MjkyMjhmNjU0MTVlMDNjNCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.p1rPsQtqc6F6wyk098tAPq0lV8Ofhp5Tz33txO2xosk)
+
+Of course, our advice is to use Persepolis browser extension instead of copying the link from the browser. Please checkout this link for more information.
+
+![image](https://private-user-images.githubusercontent.com/7452500/336147585-8c75fa8c-fba2-4bcb-afd9-931e07e7c1f6.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc3ODU1NTYsIm5iZiI6MTcxNzc4NTI1NiwicGF0aCI6Ii83NDUyNTAwLzMzNjE0NzU4NS04Yzc1ZmE4Yy1mYmEyLTRiY2ItYWZkOS05MzFlMDdlN2MxZjYuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA2MDdUMTgzNDE2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NGYyMGI5ODUzYjI5ZjIxMDAzMTIxOGM2OGJjYTkwNzI1MmQ0MjBmNzNmNTAxYWQ4ODlkNDAwNDhhN2IzYTM4YSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.Cj_0-bVNmkGm7NkxS6VCFXb3JeMBwrsZb2nDp6Hnb9c)
+
+3- not finding the file name when adding a link is fixed.
+
+
+4- Translations are updated.
+
+Thanks to contributors for pull requests and bug reports!
+Special thanks to [@amiraslanaslani](https://github.com/amiraslanaslani) and [@alireza-delavari](https://github.com/alireza-delavari)
+
+Regards
+AliReza AmirSamimi
