@@ -1,0 +1,34 @@
+---
+title:  Persepolis 4.3.0
+subtitle: New Release!
+layout: default
+tags:
+  - en
+modal-id: 1
+date: 2024-7-5
+img: persepolisdm401.png
+thumbnail: persepolisdm401.png
+project-date: July 2024
+category: Releases
+---
+
+We are happy to announce the release of Persepolis Download Manager 4.3.0.
+
+In this version:
+
+1- You can import link(s) from clipboard. Copy your link(s) and select "import links from clipboard" from file menu. You can also use the system tray icon context menu as well.
+
+![image](https://private-user-images.githubusercontent.com/7452500/345607204-007c5991-b66f-4882-92aa-61086702c10b.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjAxOTUxODEsIm5iZiI6MTcyMDE5NDg4MSwicGF0aCI6Ii83NDUyNTAwLzM0NTYwNzIwNC0wMDdjNTk5MS1iNjZmLTQ4ODItOTJhYS02MTA4NjcwMmMxMGIuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDcwNSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA3MDVUMTU1NDQxWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MTUwZmQ3YTQ2YmE4NTczZjVlZjE1NzZlZjg1Njg5ZDJjODNhNjk5ZTE5YWVlYzJkOTJlOWJhYzRkMTU5MTNiYiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.9tO9j42Vzx6SJctjXXJwBdNXmq2RGn8g3s356p0xWAs)
+
+2- Also, Persepolis can automatically detect links in the clipboard. This feature is not active by default. You can enable this feature from the preferences window(Edit > Preferences > Preferences tab > check system clipboard for copied links). Persepolis can check the clipboard only when the main window is displayed.
+
+
+3- In operating systems where PySide6 is not available in their repositories (for example, Debian), Persepolis uses PyQ5 to run. After running Persepolis with PyQt5, this error was displayed in the terminal: "Attribute Qt::AA_EnableHighDpiScaling must be set before QCoreApplication is created."
+This bug has been fixed.
+[PySide6](https://doc.qt.io/qtforpython-6) is the official Python module from the Qt for Python project and unfortunately It is not available in Debian repositories. PyQt6 is unofficial and it is available in Debian repositories. I hope PySide6 will be available in Debian distribution.
+
+
+Thanks to contributors for pull requests and bug reports!
+
+Regards
+AliReza AmirSamimi
