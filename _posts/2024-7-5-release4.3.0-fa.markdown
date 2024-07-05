@@ -1,0 +1,33 @@
+---
+title:  پرسپولیس ۴.۳.۰
+subtitle: انتشار نسخه جدید
+layout: default
+tags:
+  - fa
+modal-id: 1
+date: 2024-7-5
+img: persepolisdm401.png
+thumbnail: persepolisdm401.png
+project-date: تیر ماه ۱۴۰۳
+category: انتشار
+---
+
+بسیار خرسندیم که انتشار نسخه ۴.۳.۰ دانلود منجر پرسپولیس را به اطلاع شما برسانیم.
+
+در نسخه جدید:
+
+
+۱-  در نسخه‌های قبل وقتی کاربر لینک جدیدی را با افزونه مرورگر به پرسپولیس میفرستاد، پنجره اضافه کردن لینک نمایش داده می‌شد و بعد از تایید کاربر دانلود آغاز می‌شد. در این نسخه کاربر می‌تواند مرحله نشان داده شدن پنجره اضافه کردن لینک را حذف کند و پس از ارسال لینک به وسیله افزونه، دانلود بلافاصله آغاز شود. این قابلیت به شکل پیش‌فرض غیرفعال است. برای فعال کردن این قابلیت، از منوی ویرایش پنجره ترجیحات را باز کنید. از زبانه ترجیحات گزینه آخر را تیک بزنید. دقت کنید که در این حالت دانلود با وضعیت پیش‌فرض(بدون پروکسی و ...) آغاز خواهد شد. اگر می‌خواهید اطلاعات پروکسی را وارد کنید یا زمان آغاز و پایان دانلود و ... را تنظیم کنید، باید این قابلیت را غیرفعال کنید.
+
+![image](https://private-user-images.githubusercontent.com/7452500/346006416-ae8696ea-e1be-4525-994e-e20ba957f4a1.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjAxOTUxODEsIm5iZiI6MTcyMDE5NDg4MSwicGF0aCI6Ii83NDUyNTAwLzM0NjAwNjQxNi1hZTg2OTZlYS1lMWJlLTQ1MjUtOTk0ZS1lMjBiYTk1N2Y0YTEuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDcwNSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA3MDVUMTU1NDQxWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YWY5M2JjNjU2ZTU2Zjc4ZTQ0Y2M1NzQwZDRlMDU3YTMyYzZmNTk3MTM0ZjkxMjYyZjBmM2E4NWM5NmQ5NjgyZiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.I7TxazXAneCGXDzswhENBZt0o1tbOHxxgF2qY5ObZ8M)
+
+۲- یک باگ در نسخه ویندوز پرسپولیس وجود داشت. برنامه بعد از زدن دکمه تایید در پنجره ترجیحات، تغییرات را اعمال نمی‌کرد. این باگ تصحیح شده است.
+
+۳- پرسپولیس برای اجرا به پای‌ساید۶ نیاز دارد. در توزیع‌هایی که پای‌ساید۶ در آنها موجود نیست(مانند دبین)، پرسپولیس از پای‌کیوت۵ استفاده می‌کند. هنگام اجرای پرسپولیس با پای‌کیوت۵ این پیغام خطا در ترمینال نمایش داده می‌شد:
+Attribute Qt::AA_EnableHighDpiScaling must be set before QCoreApplication is created.
+این باگ تصحیح شده است. پای‌ساید۶ نسخه رسمی کیوت برای پایتون است و متاسفانه هنوز وارد مخازن دبین نشده. ولی پای‌کیوت۶ که نسخه غیر رسمی است در مخازن دبین موجود است. امیدوارم پای‌ساید۶ هم در مخازن دبین موجود شود.
+
+همکاری مشارکت‌کنندگان محترم را ارج می‌نهیم. از شما سپاس‌گزاریم که با پول ریکوئست‌ها و اطلاع دادن باگ‌ها ما را در توسعه برنامه یاری کردید.
+
+با احترام
+علیرضا امیرصمیمی
