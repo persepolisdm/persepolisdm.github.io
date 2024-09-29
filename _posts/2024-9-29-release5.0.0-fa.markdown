@@ -3,7 +3,7 @@ title:  پرسپولیس ۵.۰.۰
 subtitle: انتشار نسخه جدید
 layout: default
 tags:
-  - en
+  - fa
 modal-id: 1
 date: 2024-9-29
 img: PDM_500.png
