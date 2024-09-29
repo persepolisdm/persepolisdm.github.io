@@ -1,0 +1,50 @@
+---
+title:  Persepolis 5.0.0
+subtitle: New Release!
+layout: default
+tags:
+  - en
+modal-id: 1
+date: 2024-9-29
+img: PDM_500.png
+thumbnail: PDM_500.png
+project-date: September 2024
+category: Releases
+---
+
+We are happy to announce the release of Persepolis Download Manager 5.0.0.
+
+
+The biggest change of this version is that we removed Aria2 and wrote the codes of the downloader section ourselves. Persepolis is no longer a graphical interface for Aria2. it is an independent download manager. The Persepolis downloader part (Persepolis_lib) has been released as a separate Python library in this repository to help other Python projects.
+Why we replaced Aria2 with Persepolis_lib? Recently we had problems with Aria2:
+
+  - Users had requested that the number of download connections be increased from 16, but Aria2 did not support more than 16 connections.
+
+  - Aria2 does not support Socks5.
+
+  - Persepolis communicated with Aria2 through xml rpc. Sometimes Aria2 crashed during communication and it was not easy to solve the problem.
+  Persepolis_lib supports 64 connections for downloading. Persepolis_lib supports Sock5 and HTTP proxies. Because Persepolis_lib is written by [Python Requests][1], it no longer needs xml rpc. Pay attention that you can download HTTP and HTTPS links with Persepolis.
+  [1]:https://github.com/psf/requests
+
+
+** Of course, we respect the Aria 2 project and believe that it is very valuable. **
+
+In this version, we have fixed some bugs reported by users. Also, dark fusion and light fusion styles were redesigned for this version. Thanks to the [qt-material][2] project.
+[2]: https://github.com/UN-GCPDS/qt-material
+
+** Pay attention please: **
+
+1. ** [Please note that the prerequisites for the installation have changed and become less.][3] **
+[3]: https://github.com/persepolisdm/persepolis/wiki/git-installation-instruction
+
+2. ** Be sure to finish your half-finished downloads before installing the new version. **
+
+3. ** We recommend Windows users to uninstall the old version before installing the new version. **
+
+4. [Great news for Debin users! PySide 6 has entered the Debin repositories.][4] If you are a Debian sid user, you can install package libpyside6-py3-6.6 instead of package python3-pyqt5.
+[4]: https://packages.debian.org/sid/libpyside6-py3-6.6
+
+Thanks to contributors for bug reports!
+
+Regards
+AliReza AmirSamimi

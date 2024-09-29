@@ -1,0 +1,40 @@
+---
+title:  Persepolis 5.0.1
+subtitle: New Release!
+layout: default
+tags:
+  - en
+modal-id: 1
+date: 2024-9-29
+img: PDM_500.png
+thumbnail: PDM_500.png
+project-date: September 2024
+category: Releases
+---
+
+** We are happy to announce the release of Persepolis Download Manager 5.0.1.** 
+
+Several important bugs have been fixed in this version.
+
+- [Video finder][1] problems have been fixed.
+[1]: https://github.com/persepolisdm/persepolis/wiki/How-can-I-download-videos-from-youtube
+
+- The problem of using cookies file has been fixed.
+
+- Passing header issue has been fixed.
+
+- wrong utf-8 file names has been fixed.
+
+- If the download is paused by the user, the downloaded file will not be corrupted.
+
+Maybe! In some distributions, download problems using Socks5 proxies are related to not installing the python3-pysocks package. I'm not sure about that!
+
+New version of [persepolis_lib][2] has been released today.
+[2]: https://github.com/persepolisdm/persepolis_lib
+
+Thanks to contributors for pull requests and bug reports.
+Special thanks to [@amirsina-mashayekh][3] .
+[3]: https://github.com/amirsina-mashayekh
+
+Regards
+AliReza AmirSamimi
