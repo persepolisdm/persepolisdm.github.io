@@ -1,0 +1,24 @@
+---
+title:  Persepolis 5.0.2
+subtitle: New Release!
+layout: default
+tags:
+  - en
+modal-id: 1
+date: 2025-3-19
+img: PDM_500.png
+thumbnail: PDM_500.png
+project-date: March 2025
+category: Releases
+---
+
+### We are happy to announce the release of Persepolis Download Manager 5.0.2.
+**Two important bugs have been fixed in this version.**
+1- [Overdownloading](https://github.com/persepolisdm/persepolis/issues/1028) bug has been fixed.
+2-[ Fusion style issues](https://github.com/persepolisdm/persepolis/issues/1031) have been fixed.
+and some other minor issues have been fixed.
+
+New version of [persepolis_lib](https://github.com/persepolisdm/persepolis_lib) has been released today.
+
+**Regards
+AliReza AmirSamimi**
