@@ -1,64 +1,71 @@
 <!-- Services Section -->
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">شروع به کار با پرسپولیس</h2>
-                    <h3 class="section-subheading text-muted">در اینجا راهنمای نصب پرسپولیس روی سیستم‌عامل‌های مختلف را می‌بینید:</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-6">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-linux fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading"> گنو/لینوکس</h4><br>
-                    <h5> اوبونتو و دیگر توزیع‌های بر مبنای دبیان:</h5>
-                    کافیست فقط دستورات زیر را در ترمینال وارد کنید:
-                    <pre class="highlight"><code>sudo add-apt-repository ppa:persepolis/ppa
-sudo apt update
-sudo apt install persepolis
-</code></pre>
-
-<br><h5> آرچ‌لینوکس و دیگر توزیع‌های بر مبنای آرچ:</h5>
-نصب آخرین انتشار (پیشنهاد می‌شود):
-<pre class="highlight"><code>sudo pacman -S persepolis
-</code></pre>
-نصب با آخرین تغییرات از گیت‌هاب:
-<pre class="highlight"><code>yay -S persepolis-git
-</code></pre>
-<br><h5>فدورا:</h5>
-<pre class="highlight"><code>sudo dnf install persepolis
-</code></pre>
-<br><h5>اپن سوزه:</h5>
-<p> <a href="https://github.com/persepolisdm/persepolis/wiki/Open-suse-Installer-fa">برای نصب پرسپولیس بر روی openSUSE ویکی را دنبال کنید</a></p>
-</code></pre>
-              <br>  </div>
-              <div class="col-md-6">
-              <span class="fa-stack fa-4x">
-                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                  <img class="fa-stack-1x fa-inverse" src='../img/bsd.png'></img>
-              </span>
-              <h4 class="service-heading"> بی‌اس‌دی‌ها</h4>
-              <p> <a href="https://github.com/persepolisdm/persepolis/wiki/FreeBSD-Support">برای نصب پرسپولیس بر روی FreeBSD ویکی را دنبال کنید</a></p>
-              <p><a href="https://github.com/persepolisdm/persepolis/wiki/OpenBSD-Support">برای نصب پرسپولیس بر روی OpenBSD ویکی را دنبال کنید</a></p>
-              <br>
-                <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fa fa-apple fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="service-heading">مک</h4>
-                <p class="">برای نصب پرسپولیس روی مک از <a href="https://github.com/persepolisdm/persepolis/releases">صفحه انتشار </a> نسخه مک را دانلود کرده و در پوشه Applications قرار دهید</p>
-                <p><a href="https://github.com/persepolisdm/persepolis/wiki/MacOS-Installer-fa">اطلاعات بیشتر در ویکی پرسپولیس</a></p>
-            <br>
-                <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fa fa-windows fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="service-heading">ویندوز</h4>
-                <p>فایل نصاب ویندوز را با توجه به معماری سیستم خود از صفحه انتشار دانلود کرده و اجرا کنید.</p>
-                <p><a href="https://github.com/persepolisdm/persepolis/wiki/Microsoft-Windows-fa">اطلاعات بیشتر در ویکی پرسپولیس</a></p>
-  </div>
+<section id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">شروع به کار با پرسپولیس</h2>
+        <h3 class="section-subheading text-muted">در اینجا راهنمای نصب پرسپولیس روی سیستم‌عامل‌های مختلف را می‌بینید:</h3>
+      </div>
     </div>
-    </section>
+    <div class="row text-center">
+      <div class="col-md-6">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-linux fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading" style="font-size: 20px;"><strong>گنو/لینوکس</strong></h4><br>
+
+        <p><strong>اوبونتو</strong><br>
+        بسته‌ی پرسپولیس برای اوبونتو از طریق PPA قابل نصب است.<br>
+        <a href="https://github.com/persepolisdm/persepolis/wiki/Ubuntu-installation-instruction-fa">راهنمای نصب اوبونتو را در ویکی بخوانید</a></p>
+
+        <p><strong>دبیان</strong><br>
+        کاربران دبیان می‌توانند از بسته‌های .deb آماده استفاده کنند.<br>
+        <a href="https://github.com/persepolisdm/persepolis/wiki/debian-installation-instruction-fa">جزئیات را در ویکی دبیان ببینید</a></p>
+
+        <p><strong>آرچ لینوکس</strong><br>
+        پرسپولیس هم در مخازن رسمی و هم به‌صورت نسخه‌ی به‌روز git در AUR در دسترس است.<br>
+        <a href="https://github.com/persepolisdm/persepolis/wiki/Arch-Linux-Installer-fa">راهنمای آرچ در ویکی را دنبال کنید</a></p>
+
+        <p><strong>فدورا</strong><br>
+        پرسپولیس در مخازن رسمی فدورا در دسترس است.<br>
+        <a href="https://github.com/persepolisdm/persepolis/wiki/Fedora-Installer-fa">بخش فدورا در ویکی را بخوانید</a></p>
+
+        <p><strong>اوپن‌سوزه</strong><br>
+        راهنمای نصب برای openSUSE با جزئیات در ویکی موجود است.<br>
+        <a href="https://github.com/persepolisdm/persepolis/wiki/Open-suse-Installer-fa">صفحه‌ی openSUSE در ویکی را بررسی کنید</a></p>
+
+        <p><strong>باندل برای تمامی توزیع‌های لینوکس</strong><br>
+        باندل قابل حمل پرسپولیس برای تمامی توزیع‌های لینوکس در <a href="https://github.com/persepolisdm/persepolis/releases">صفحه‌ی انتشار</a> موجود است.<br>
+        <a href="https://github.com/persepolisdm/persepolis/wiki/Linux-bundle-fa">توضیحات بیشتر را در ویکی بخوانید</a></p>
+      </div>
+
+      <div class="col-md-6">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <img class="fa-stack-1x fa-inverse" src='../img/bsd.png'></img>
+        </span>
+        <h4 class="service-heading" style="font-size: 20px;"><strong>بی‌اس‌دی</strong></h4>
+        <p><a href="https://github.com/persepolisdm/persepolis/wiki/FreeBSD-Support-fa">برای نصب پرسپولیس روی FreeBSD به ویکی مراجعه کنید</a></p>
+
+        <br>
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-apple fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading" style="font-size: 20px;"><strong>مک‌اواس</strong></h4>
+        <p>برای نصب پرسپولیس روی مک‌اواس، آخرین نسخه را از <a href="https://github.com/persepolisdm/persepolis/releases">صفحه‌ی انتشار</a> دانلود کرده و فایل .app را به پوشه‌ی Applications منتقل کنید.</p>
+        <p><a href="https://github.com/persepolisdm/persepolis/wiki/MacOS-Installer-fa">توضیحات بیشتر را در ویکی پرسپولیس بخوانید</a></p>
+
+        <br>
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-windows fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading" style="font-size: 20px;"><strong>ویندوز</strong></h4>
+        <p>برای نصب پرسپولیس روی ویندوز، نسخه‌ی متناسب با سیستم خود را از <a href="https://github.com/persepolisdm/persepolis/releases">صفحه‌ی انتشار</a> دانلود کرده و اجرا کنید.</p>
+        <p><a href="https://github.com/persepolisdm/persepolis/wiki/Microsoft-Windows-fa">اطلاعات بیشتر را در ویکی ویندوز بخوانید</a></p>
+      </div>
+    </div>
+  </div>
+</section>
