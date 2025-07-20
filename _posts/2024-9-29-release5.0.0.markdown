@@ -4,7 +4,7 @@ subtitle: New Release!
 layout: default
 tags:
   - en
-modal-id: 1
+modal-id: 11
 date: 2024-9-29
 img: PDM_500.png
 thumbnail: PDM_500.png

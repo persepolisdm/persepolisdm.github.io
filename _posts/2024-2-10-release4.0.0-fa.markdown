@@ -4,7 +4,7 @@ subtitle: انتشار نسخه جدید
 layout: default
 tags:
   - fa
-modal-id: 1
+modal-id: 6
 date: 2024-02-10
 img: persepolisdmV4.png
 thumbnail: persepolisdmV4.png
