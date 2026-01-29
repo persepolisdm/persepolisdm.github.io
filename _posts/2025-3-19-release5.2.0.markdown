@@ -1,0 +1,83 @@
+---
+title:  Persepolis 5.2.0
+subtitle: New Release!
+layout: default
+tags:
+  - en
+modal-id: 13
+date: 2025-7-14
+img: PDM_500.png #TODO: update the image 
+thumbnail: PDM_500.png  #TODO: update the image
+project-date: Jul 2025
+category: Releases
+---
+
+### We are happy to announce the release of version 5.2.0 of Persepolis Download Manager.
+This version includes several new features and **important bugs have been fixed**. Therefore, we **strongly recommend** all users to **update** to the new version. 
+**Those who have kindly taken the responsibility of maintaining Persepolis for various distributions should note that some prerequisites for Persepolis have changed. Please visit this [Persepolis wiki page](https://github.com/persepolisdm/persepolis/wiki/git-installation-instruction) before creating the Persepolis package.**
+
+## Added Bundle for Linux Distributions
+Users have often requested that Persepolis, like Windows and Mac, have a standalone version or a bundle for Linux distributions that can be downloaded and run with one click without worrying about installing prerequisites. This has happened in this version. You just need to download the Persepolis Linux bundle, make it executable if necessary, and easily run it with a double click. If you prefer this method, we recommend uninstalling previous versions before doing so. After the first run, the Persepolis bundle will automatically copy the .desktop file and the necessary icons to the required paths under the user's /home directory. It is important to note that we use [nuitka](https://github.com/Nuitka/Nuitka) to create the Persepolis Linux bundle, and for building for Mac and Windows, we use [pyinstaller](https://github.com/pyinstaller/pyinstaller). The build process is fully automated and done via GitHub actions. Check out the [automatic build repository](https://github.com/persepolisdm/persepolis-auto-build).
+**We still welcome any one who are interested in creating and maintaining the Persepolis package for a distribution.**
+
+## Persepolis Video finder has been improved.
+
+- Nowadays, many video sharing sites use the [m3u8](https://en.wikipedia.org/wiki/M3U). The Persepolis Video Downloader had issues downloading from some of these sites. This issue has been improved.
+
+- In the new version of Persepolis, when you use the Persepolis Video Finder, the video thumbnail will be displayed for you, and the highest quality version will be automatically selected for download. However, you can choose lower quality versions if you wish.
+
+<img width="684" height="667" alt="image" src="https://github.com/user-attachments/assets/c09f7e7a-4503-4e1a-a66c-13ed7314b3bd" />
+
+## You can install Persepolis on FreeBSD and its derived distributions.
+Running Persepolis on FreeBSD and its derivatives had some issues. These issues have been resolved. Persepolis does not have an official package for FreeBSD, and the version available in the official FreeBSD repositories is very old. If anyone is interested in maintaining this package for the official FreeBSD repositories, we welcome it. This [link](https://github.com/persepolisdm/persepolis/wiki/FreeBSD-Support) provides installation instructions for Persepolis on FreeBSD.
+Screenshot of the GhostBSD distribution with the Mate desktop env.:  
+
+<img width="1024" height="768" alt="VirtualBox_ghost bsd_14_07_2025_19_27_40" src="https://github.com/user-attachments/assets/75169f59-7e01-4097-886d-bc38e993cc85" />
+
+## New styles have been added or modified for different operating systems.
+
+- In Linux distributions and FreeBSD derivatives, by installing the **Breeze** package, the appearance of Persepolis will be aligned with GTK+ and QT desktops. If you are using the PySide6 version of Persepolis, we **highly recommend** installing the Breeze package on your operating system. **We also kindly ask the respected maintainers to add this package to the prerequisites of Persepolis.** This package is available in the Debian repositories as kde-style-breeze and in Arch Linux repositories as breeze, in the Fedora repositories as plasma-breeze, and in the openSUSE repositories as breeze6. By installing this package and selecting the breeze style from the Persepolis settings window, the appearance of Persepolis will be reasonably aligned with your desktop. For example, the image below shows Persepolis on the Mate desktop env. .  
+
+<img width="1024" height="768" alt="VirtualBox_ghost bsd_14_07_2025_19_29_45" src="https://github.com/user-attachments/assets/3b721f7b-b5fe-4c0e-88f9-98ba692ddfe6" />
+
+This image shows Persepolis on the XFCE desktop env., and as you can see, the breeze style has been selected from the style settings window.  
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/cad922ed-aa7a-439c-b9ac-d75c9422358b" />
+
+Screenshot of Ubuntu unity 25.04  
+
+<img width="1280" height="800" alt="VirtualBox_ubuntu unity_18_07_2025_16_17_05" src="https://github.com/user-attachments/assets/09d71cef-c671-410e-a81e-61879f23cc87" />
+
+
+**The Breeze style is not available for the Persepolis Linux bundle.**
+
+- The **Windows 11** style has also been added for Windows users.
+
+<img width="1366" height="768" alt="Capture" src="https://github.com/user-attachments/assets/026b72d4-2749-45f7-8a8b-0cc1715aa71d" />
+
+- The **Fusion** style of Persepolis, which is available for the Persepolis Linux bundle and all operating systems, has been redesigned using the [BreezeStyleSheets](https://github.com/Alexhuszagh/BreezeStyleSheets) project.
+Dark theme  
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9569af87-4e79-4f68-8fff-874014802f3b" />
+
+Light theme  
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5cde6136-48e0-451e-a13b-8ef3406f6957" />
+
+## New notification sounds have been created for Persepolis.
+Persepolis uses new notification sounds on Linux, FreeBSD, and Mac operating systems. These notification sounds are created with a [setar](https://en.wikipedia.org/wiki/Setar)(a Persian instrument). Therefore, there is no need to install the `sound-theme-freedesktop` package for Linux and FreeBSD distributions, and it should be removed from the prerequisites.
+
+## Many bugs have been fixed.
+
+- In previous versions of Persepolis, long downloads encountered a Read timed out error, and the user had to resume the download. This issue has been improved.
+- Persepolis used to occupy a large amount of user RAM when downloading large files. This issue has been resolved.
+- Persepolis had issues downloading files of unknown size. This issue has been fixed.
+- New downloads sometimes caused overwriting of incomplete downloads with the same file name. This issue has been resolved.
+- The issue with the video finder not working on the Windows operating system has been fixed.
+We thank all contributors who reported bugs or help us in fixing them. Special thanks to @eajaykumar
+
+### Important Information for Ubuntu and Debian Users
+Users of Ubuntu 24.04 or older versions of Ubuntu and users of Debian Bookworm or older versions of Debian should either use the Persepolis Linux bundle or install Persepolis from source following this [guide](https://github.com/persepolisdm/persepolis/wiki/git-installation-instruction). Users of Ubuntu 25.04 or newer versions of Ubuntu and users of Debian Trixie and newer versions of Debian can install Persepolis from the Launchpad repository as before or use the .deb file provided on this page for installation.
+
+**Regards
+AliReza AmirSamimi**

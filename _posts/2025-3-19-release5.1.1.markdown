@@ -1,0 +1,29 @@
+---
+title:  Persepolis 5.1.1
+subtitle: New Release!
+layout: default
+tags:
+  - en
+modal-id: 13
+date: 2025-5-15
+img: PDM_500.png #TODO: update the image 
+thumbnail: PDM_500.png  #TODO: update the image
+project-date: May 2025
+category: Releases
+---
+
+### We are happy to announce the release of Persepolis Download Manager 5.1.1.
+
+**In this version, several important bugs have been fixed:**
+
+1. The program would crash when the headers were not received from the server. This bug has been fixed.
+2. Occasionally, image files would become corrupted during downloads. This [issue](https://github.com/persepolisdm/persepolis/issues/1033) has been resolved.
+3. Users of the Mate and XFCE desktop environments experienced a problem where the downloaded file would not be highlighted when clicking the "Open Folder" button at the end of the download. This bug has been fixed.
+
+New version of [persepolis_lib](https://github.com/persepolisdm/persepolis_lib) has been released today.
+We thank all the contributors who reported the issues.
+
+**Regards
+AliReza AmirSamimi**
+
+![Screenshot_2025-05-16_05-19-06](https://github.com/user-attachments/assets/407bb641-d85d-447b-b5e8-3bd24dc6d776)

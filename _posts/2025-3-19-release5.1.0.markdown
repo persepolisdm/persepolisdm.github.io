@@ -1,0 +1,28 @@
+---
+title:  Persepolis 5.1.0
+subtitle: New Release!
+layout: default
+tags:
+  - en
+modal-id: 13
+date: 2025-4-18
+img: PDM_500.png #TODO: update the image 
+thumbnail: PDM_500.png  #TODO: update the image
+project-date: Apr 2025
+category: Releases
+---
+
+### We are happy to announce the release of Persepolis Download Manager 5.1.0.
+
+1. A new feature has been added to Persepolis. Persepolis can download files that have an unspecified size. Such as GitHub zip files and... .
+
+2. The log window has been redesigned to make it easier to check error messages.
+
+3. The installation prerequisites for Linux and BSD have changed. `libnotify`(`libnotify-bin`) and `pulseaudio` have been removed from the prerequisites and `python3-dasbus‍`(`python-dasbus‍`) has been added. Note that `yt-dlp`, `ffmpeg` and  `python3-dasbus‍` are optional prerequisites. Please check the installation dependencies on the [Persepolis Wiki](https://github.com/persepolisdm/persepolis/wiki/git-installation-instruction) for more information.
+
+New version of [persepolis_lib](https://github.com/persepolisdm/persepolis_lib) has been released today.
+
+**Regards
+AliReza AmirSamimi**
+
+![Screenshot_2025-04-19_05-44-47](https://github.com/user-attachments/assets/5c8a0c27-9aea-47cb-8902-f2175793643d)
